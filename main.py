@@ -1,9 +1,23 @@
 import RPi.GPIO as GPIO
 import bme.externalTemp as bme
 import serial
+import CRC.crc16 as crc16
 
 resistor = 23
 ventoinha = 24
+matricula = b'\x05\x05\x00\x00' 
+C1 = b'\xC1'
+C2 = b'\xC2'
+C3 = b'\xC3'
+D1 = b'\xD1'
+D2 = b'\xD2'
+D3 = b'\xD3'
+D4 = b'\xD4'
+D5 = b'\xD5'
+D6 = b'\xD6'
+# testing calc of crc
+crc = crc16.calcCRC(b'\x01\x23'+C1+matricula,7).to_bytes(2,'big')
+
 
 def init_UART():
   uart0_filestream = serial.Serial ("/dev/serial0", 9600, 8)    #Open port with baud rate
@@ -13,9 +27,10 @@ def init_UART():
     print("UART inicializada!\n")
   
   # Exemplo de como mandar comando em python
-  message = b'\x01\x23\xC1\x05\x05\x00\x00' 
+  message = b'\x01\x23'+C1+matricula+crc
   print("escrevendo...")
   uart0_filestream.write(message)
+  print(message)
 
 
 def init_GPIO(pResistor, pVentoinha):
@@ -28,7 +43,7 @@ def init_GPIO(pResistor, pVentoinha):
 
 if __name__ == "__main__":
   init_GPIO(resistor,ventoinha)
-  # bme.init_I2C()
+  bme.init_I2C()
   init_UART()
 
 """
