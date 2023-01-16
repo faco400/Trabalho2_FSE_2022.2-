@@ -31,6 +31,8 @@ def init_UART():
   print("escrevendo...")
   uart0_filestream.write(message)
   print(message)
+  # message2 = uart0_filestream.read(4)
+  # print(message2)
 
 
 def init_GPIO(pResistor, pVentoinha):
