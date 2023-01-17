@@ -50,15 +50,21 @@ def CRC16(crc, data):
 
 def calcCRC(commands, size):
   i = 0
-  crc = 0xFFFF
+  crc = 0
   
   for i in range(size):
     crc = CRC16(crc, commands[i])
     i = i+1
     
   return crc
+  # return hex(crc)
 
 if __name__ == '__main__':
   # testing crc solicitando temp interna
-  crc = calcCRC(b'\x01\x23'+C1+matricula, 7).to_bytes(2,'little')
+  crc = calcCRC(b'\x01\x23\xC1\x05\x05\x00\x00', 7)#.to_bytes(2,'little')
   print(crc)
+  print(hex(crc))
+  crcstring = str(crc)
+  print(crcstring)
+  bytecrc = crcstring.encode()
+  print(bytecrc)
