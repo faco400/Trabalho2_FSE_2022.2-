@@ -1,3 +1,5 @@
+import definitions as defs
+
 crc_table=[0x0000, 0xC0C1, 0xC181, 0x0140, 0xC301, 0x03C0, 0x0280, 0xC241,
           0xC601, 0x06C0, 0x0780, 0xC741, 0x0500, 0xC5C1, 0xC481, 0x0440,
           0xCC01, 0x0CC0, 0x0D80, 0xCD41, 0x0F00, 0xCFC1, 0xCE81, 0x0E40,
@@ -47,10 +49,18 @@ def calcCRC(commands, size):
 
 if __name__ == '__main__':
   # testing crc solicitando temp interna
-  crc = calcCRC(b'\x01\x23\xC1\x05\x05\x00\x00', 7)#.to_bytes(2,'little')
-  print(crc)
-  print(hex(crc))
-  crcstring = str(crc)
-  print(crcstring)
-  bytecrc = crcstring.encode()
-  print(bytecrc)
+  # crc = calcCRC(b'\x01\x23\xC1\x05\x05\x00\x00', 7)#.to_bytes(2,'little')
+  # print(crc)
+  # print(hex(crc))
+  # crcstring = str(crc)
+  # print(crcstring)
+  # bytecrc = crcstring.encode()
+  # print(bytecrc)
+  message = defs.ESP32 + defs.CODE[1] + defs.C3 + defs.matricula + crc
+  crc_resp = message[-2:]
+  # crc_resp = calcCRC(b'\x01\x23\xC1\x05\x05\x00\x00', 7).to_bytes(2,'little')
+  crc_calc = calcCRC(b'\x01\x23\xC1\x05\x05\x00\x00', 7).to_bytes(2,'little')
+  if crc_resp == crc_calc:
+    print('ok')
+  else:
+    print(f'Error-CRC\nCRC recebido: {crc_resp}\nCRC calculado: {crc_calc}')
