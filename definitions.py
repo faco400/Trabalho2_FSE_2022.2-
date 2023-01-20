@@ -12,6 +12,8 @@ D3 = b'\xD3' # Envia Estado do Sistema (Ligado = 1 / Desligado = 0)
 D4 = b'\xD4' # Modo de Controle da Temperatura de referência (Dashboard = 0 / Curva/Terminal = 1) (1 byte)
 D5 = b'\xD5' # Envia Estado de Funcionamento (Funcionando = 1 / Parado = 0)
 D6 = b'\xD6' # Envia Temperatura Ambiente (Float))
+STATES = [b'\x00', b'\x01']
+
 sample = b'\x01\x23\xC1\x05\x05\x00\x00'
 sample2 = [0x01,0x23,0xC1,0x05,0x05,0x00,0x00]
 
