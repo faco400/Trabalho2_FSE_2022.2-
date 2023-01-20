@@ -4,6 +4,7 @@ import serial
 import CRC.crc16 as crc16
 import definitions as defs
 import time
+import struct
 
 uart0_filestream = -1
 
@@ -16,12 +17,22 @@ def verify_crc(resp, crc_resp):
     return f'CRC-ERROR'
 
 # To Do...
-def init_states():
-  pass
+def init_states(uart):
+  # turnOven_ON_OFF(uart, defs.STATES[0]): # desliga o forno na inicializacao?
+  # request_uart(uart, defs.C1) # LE temp onterna?
 
-def turnOven_ON_OFF(uart, value):
-  crc = crc16.calcCRC(defs.ESP32+defs.CODE[1]+defs.D3+defs.matricula+ defs.STATES[value],8).to_bytes(2,'little')
-  message = defs.ESP32 + defs.CODE[1] + defs.D3 + defs.matricula+ defs.STATES[value] + crc
+  # lendo temp de referencia...
+  resp = request_uart(uart, defs.C2)
+  temp_bytes = resp[3:7]
+  print(resp)
+  # print(resp[3:7])
+  print(temp_bytes)
+  temp = struct.unpack('f', temp_bytes)
+  print(f'{temp[0]:.1f}')
+
+def send_states(uart, cmd_code, value):
+  crc = crc16.calcCRC(defs.ESP32+defs.CODE[1]+cmd_code+defs.matricula+ defs.STATES[value],8).to_bytes(2,'little')
+  message = defs.ESP32 + defs.CODE[1] + cmd_code + defs.matricula+ defs.STATES[value] + crc
   # print(message)
   # print(crc)
   uart.write(message) # Solicita comando
@@ -31,7 +42,6 @@ def turnOven_ON_OFF(uart, value):
     print('Error no Calculo CRC, tentando de novo...')
     read_cmd(uart)
   # print(resp)
-
 
 def init_UART():
   uart0_filestream = serial.Serial ("/dev/serial0", 9600, serial.EIGHTBITS, serial.PARITY_NONE, serial.STOPBITS_ONE)    #Open port with baud rate
@@ -72,6 +82,7 @@ if __name__ == "__main__":
   init_GPIO(defs.resistor,defs.ventoinha)
   bme.init_I2C()
   uart = init_UART()
+  init_states(uart)
   
   #Loop principal
   while 1:
@@ -79,13 +90,16 @@ if __name__ == "__main__":
     op = str(hex(op[3]))
     if op == '0xa1':
       print('ligando forno...')
-      turnOven_ON_OFF(uart,1)
+      send_states(uart,defs.D3, 1)
     elif op == '0xa2':
       print('desligando forno...')
-      turnOven_ON_OFF(uart,0)
+      send_states(uart,defs.D3, 0)
     elif op == '0xa3':
       print('iniciando aquecimento...')
+      send_states(uart,defs.D5,1)
     elif op == '0xa4':
       print('cancelando...')
+      send_states(uart,defs.D5,0)
     elif op == '0xa5':
       print('alterna entre o modo de Temperatura de Referência e Curva de Temperatura')
+      #ALTERNA? Relacionado com o init_states?
