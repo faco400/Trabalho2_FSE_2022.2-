@@ -14,6 +14,10 @@ def init_I2C():
   # there is a handy string representation too
   print(f'temp: {data.temperature:.1f}C\npressure: {data.pressure:.2f}hPa\nhumidity: {data.humidity:.0f}%')
 
+def update_data():
+  data = bme280.sample(bus, address, calibration_params)
+  return data
+
 # the compensated_reading class has the following attributes
 # print(data.id)
 # print(data.timestamp)
