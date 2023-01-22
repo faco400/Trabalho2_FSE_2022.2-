@@ -25,3 +25,7 @@ python main.py
 ```
 ### Passo 3:
 Em seguida acesse o Dashboard da placa raspberry utilizada para interagir com o forno.
+
+## Screenshots
+### Gráficos com o uso de uma referência fixa de temperatura (30 graus)
+<img src="assets/teste_referencia_fixa.jpg" alt="Referencia de 30 graus">
