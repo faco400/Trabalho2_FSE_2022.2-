@@ -1,18 +1,67 @@
-import wiringpi
+import RPi.GPIO as GPIO
+import time
+import signal
+import sys
+import os
 
-OUTPUT = 1
+# Configuration
+FAN_PIN = 24            # BCM pin used to drive PWM fan
+WAIT_TIME = 1           # [s] Time to wait between each refresh
+PWM_FREQ = 25           # [kHz] 25kHz for Noctua PWM control
 
-PIN_TO_PWM = 5
+# Configurable temperature and fan speed
+MIN_TEMP = 40
+MAX_TEMP = 70
+FAN_LOW = 40
+FAN_HIGH = 100
+FAN_OFF = 0
+FAN_MAX = 100
 
-wiringpi.wiringPiSetup()
-wiringpi.pinMode(PIN_TO_PWM,OUTPUT)
-wiringpi.softPwmCreate(PIN_TO_PWM,0,100) # Setup PWM using Pin, Initial Value and Range parameters
+# # Get CPU's temperature
+# def getCpuTemperature():
+#     res = os.popen('vcgencmd measure_temp').readline()
+#     temp =(res.replace("temp=","").replace("'C\n",""))
+#     #print("temp is {0}".format(temp)) # Uncomment for testing
+#     return temp
 
-for time in range(0,100):
-  for brightness in range(0,100):
-    wiringpi.softPwmWrite(PIN_TO_PWM,brightness)
-    wiringpi.delay(10)
-# for time in range(0,4):
-# 	for brightness in range(0,100): # Going from 0 to 100 will give us full off to full on
-# 		wiringpi.softPwmWrite(PIN_TO_PWM,brightness) # Change PWM duty cycle
-# 		wiringpi.delay(10) # Delay for 0.2 seconds
+# Set fan speed
+def setFanSpeed(speed):
+    fan.start(speed)
+    return()
+
+# Handle fan speed
+def handleFanSpeed():
+    temp = float(getCpuTemperature())
+    # Turn off the fan if temperature is below MIN_TEMP
+    if temp < MIN_TEMP:
+        setFanSpeed(FAN_OFF)
+        #print("Fan OFF") # Uncomment for testing
+    # Set fan speed to MAXIMUM if the temperature is above MAX_TEMP
+    elif temp > MAX_TEMP:
+        setFanSpeed(FAN_MAX)
+        #print("Fan MAX") # Uncomment for testing
+    # Caculate dynamic fan speed
+    else:
+        step = (FAN_HIGH - FAN_LOW)/(MAX_TEMP - MIN_TEMP)   
+        temp -= MIN_TEMP
+        setFanSpeed(FAN_LOW + ( round(temp) * step ))
+        #print(FAN_LOW + ( round(temp) * step )) # Uncomment for testing
+    return ()
+
+if __name__ == '__main__':
+  try:
+      # Setup GPIO pin
+      GPIO.setwarnings(False)
+      GPIO.setmode(GPIO.BCM)
+      GPIO.setup(FAN_PIN, GPIO.OUT, initial=GPIO.HIGH)
+      fan = GPIO.PWM(FAN_PIN,defs.PWM_FREQ)
+      setFanSpeed(100)
+      # Handle fan speed every WAIT_TIME sec
+      # while True:
+      #     handleFanSpeed()
+      #     time.sleep(WAIT_TIME)
+
+  except KeyboardInterrupt: # trap a CTRL+C keyboard interrupt
+    pass
+  #     setFanSpeed(FAN_HIGH)
+  #     GPIO.cleanup() # resets all GPIO ports used by this function
