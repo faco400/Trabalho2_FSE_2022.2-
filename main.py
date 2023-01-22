@@ -33,11 +33,12 @@ def init_states(uart):
   send_states(uart,defs.D4, 0)
   send_states(uart,defs.D5, 0)
   ctr = PID()
+  
   op = 0
   while op != 'N' and op != 'Y':
     os.system('clear')
     op = str(input('Deseja alterar of valores de Kp(30.0) Ki(0.2) e Kd(400.0)? [Y/N]\n')).upper()
-    print(op)
+
     time.sleep(2)
     if op == 'Y':
       kp = float(input('Digite um novo valor para Kp: '))
@@ -109,17 +110,31 @@ def send_control_signal(uart, cmd_code, control_signal):
   #   print('Error no Calculo CRC, tentando de novo...')
   #   send_control_signal(uart, cmd_code, control_signal)
 
+def send_envTemp(uart, cmd_code, env_temp):
+  crc = crc16.calcCRC(defs.ESP32 + defs.CODE[1] + cmd_code + defs.matricula + env_temp,11).to_bytes(2,'little')
+  message = defs.ESP32 + defs.CODE[1] + cmd_code + defs.matricula + env_temp + crc
+  uart.write(message) # Solicita comando
+
+  resp = uart.read(9) # le comando
+
+  if(verify_crc(resp, resp[-2:], 9) == 'CRC-ERROR'):
+    print('Error no Calculo CRC, tentando de novo...')
+    send_control_signal(uart, cmd_code, env_temp)
+
 if __name__ == "__main__":
   try: 
     fan, res = init_GPIO(defs.resistor,defs.ventoinha)
-    # bme.init_I2C()
+    data = bme.init_I2C()
     uart = init_UART()
     ctr = init_states(uart)
     print('Rodando...')
     
     #Loop principal
     while 1:
-      # print('lendo comandos')
+      data = bme.init_I2C()
+      temp_bytes = struct.pack('f', data.temperature)
+      send_envTemp(uart,defs.D6,temp_bytes)
+      print('lendo comandos')
       op = request_uart(uart,defs.C3)
       op = str(hex(op[3]))
       if op == '0xa1':
@@ -176,4 +191,5 @@ if __name__ == "__main__":
     send_states(uart,defs.D5, 0)
     GPIO.output(defs.resistor, GPIO.LOW)
     GPIO.output(defs.ventoinha, GPIO.LOW)
+    
     print('Encerrando...')
