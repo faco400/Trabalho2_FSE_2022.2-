@@ -11,7 +11,6 @@ import wiringpi
 
 uart0_filestream = -1
 start_control = False
-start_control = False
 
 def verify_crc(resp, crc_resp, size):
   crc_calc = crc16.calcCRC(resp, size-2).to_bytes(2,'little')
@@ -99,7 +98,7 @@ def request_uart(uart,cmd_code):
 def send_control_signal(uart, cmd_code, control_signal):
   crc = crc16.calcCRC(defs.ESP32 + defs.CODE[1] + cmd_code + defs.matricula + control_signal,11).to_bytes(2,'little')
   message = defs.ESP32 + defs.CODE[1] + cmd_code + defs.matricula+ control_signal + crc
-  print(message)
+  # print(message)
   # print(crc)
   uart.write(message) # Solicita comando
   # resp = uart.read(5) # le comando
@@ -161,7 +160,7 @@ if __name__ == "__main__":
         send_control_signal(uart, defs.D1, control_signal_bytes)
 
         #atualiza pwm
-        print(float(control_signal))
+        # print(float(control_signal))
         if control_signal < 0 :
           fan.start(float(control_signal) * (-1))
           res.stop()
@@ -175,4 +174,6 @@ if __name__ == "__main__":
     send_states(uart,defs.D3, 0)
     send_states(uart,defs.D4, 0)
     send_states(uart,defs.D5, 0)
+    GPIO.output(defs.resistor, GPIO.LOW)
+    GPIO.output(defs.ventoinha, GPIO.LOW)
     print('Encerrando...')
