@@ -28,7 +28,9 @@ Em seguida acesse o Dashboard da placa raspberry utilizada para interagir com o 
 
 ## Screenshots
 ### Gráficos com o uso de uma referência fixa de temperatura (30 graus)
-<img src="assets/teste_referencia_fixa.jpg" alt="Referencia de 30 graus">
+
+<img src="assets/teste_referencia_fixa.jpg" width="500px"/>
+
 
 ## Video de apresentação:
 <a href="https://youtu.be/vFwdDArBs58" title="Apresentação FSE">Video de apresentação</a>

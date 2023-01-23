@@ -1,263 +1,75 @@
-[22-01-2023 16:17:24] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:17:27] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:17:29] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:17:31] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:17:34] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:17:36] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:17:39] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:17:41] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:17:43] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:17:45] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:17:48] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:17:50] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:17:53] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:17:55] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:17:58] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:00] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:02] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:04] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:07] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:09] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:12] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:14] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:17] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:19] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:21] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:23] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:26] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:28] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:31] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:33] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:35] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:38] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:40] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:42] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:45] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:47] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:50] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:52] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:54] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:57] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:18:59] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:19:01] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:20:41] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:20:43] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:20:46] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:20:48] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:20:50] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:20:52] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:20:55] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:20:57] - tempAmbiente: 26.0C tempInt: 50.0C temp_ref: 50.0C
-[22-01-2023 16:23:12] - tempAmbiente: 26.1C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:23:13] - tempAmbiente: 26.1C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:23:15] - tempAmbiente: 26.1C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:23:16] - tempAmbiente: 26.1C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:23:18] - tempAmbiente: 26.1C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:23:20] - tempAmbiente: 26.1C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:23:21] - tempAmbiente: 26.1C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:23:23] - tempAmbiente: 26.1C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:23:24] - tempAmbiente: 26.1C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:23:26] - tempAmbiente: 26.1C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:23:28] - tempAmbiente: 26.1C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:23:29] - tempAmbiente: 26.1C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:23:31] - tempAmbiente: 26.1C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:23:32] - tempAmbiente: 26.1C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:23:34] - tempAmbiente: 26.1C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:23:36] - tempAmbiente: 26.1C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:25:27] - tempAmbiente: 26.2C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:25:29] - tempAmbiente: 26.2C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:25:30] - tempAmbiente: 26.2C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:25:32] - tempAmbiente: 26.2C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:25:33] - tempAmbiente: 26.2C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:25:35] - tempAmbiente: 26.2C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:25:37] - tempAmbiente: 26.2C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:25:38] - tempAmbiente: 26.2C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:25:40] - tempAmbiente: 26.2C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:25:41] - tempAmbiente: 26.2C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:27:29] - tempAmbiente: 26.2C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:27:30] - tempAmbiente: 26.2C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:27:31] - tempAmbiente: 26.2C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:27:32] - tempAmbiente: 26.2C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:27:33] - tempAmbiente: 26.2C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:27:34] - tempAmbiente: 26.2C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:27:35] - tempAmbiente: 26.2C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:27:36] - tempAmbiente: 26.2C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:27:37] - tempAmbiente: 26.2C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:27:38] - tempAmbiente: 26.2C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:27:39] - tempAmbiente: 26.2C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:27:40] - tempAmbiente: 26.2C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:27:42] - tempAmbiente: 26.2C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:29:51] - tempAmbiente: 26.1C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 16:29:53] - tempAmbiente: 26.1C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 16:29:54] - tempAmbiente: 26.1C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 16:29:56] - tempAmbiente: 26.1C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 16:29:57] - tempAmbiente: 26.1C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 16:29:59] - tempAmbiente: 26.1C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 16:30:01] - tempAmbiente: 26.1C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 16:30:02] - tempAmbiente: 26.1C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 16:30:04] - tempAmbiente: 26.1C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 16:30:05] - tempAmbiente: 26.1C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 16:46:30] - tempAmbiente: 26.0C tempInt: 45.0C temp_ref: 45.0C
-[22-01-2023 16:46:32] - tempAmbiente: 26.0C tempInt: 45.0C temp_ref: 45.0C
-[22-01-2023 16:46:34] - tempAmbiente: 26.0C tempInt: 45.0C temp_ref: 45.0C
-[22-01-2023 16:46:36] - tempAmbiente: 26.0C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:46:39] - tempAmbiente: 26.0C tempInt: 34.1C temp_ref: 34.1C
-[22-01-2023 16:48:01] - tempAmbiente: 26.0C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:48:03] - tempAmbiente: 26.0C tempInt: 34.9C temp_ref: 34.9C
-[22-01-2023 16:48:04] - tempAmbiente: 26.0C tempInt: 34.9C temp_ref: 34.9C
-[22-01-2023 16:48:06] - tempAmbiente: 26.0C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 16:48:08] - tempAmbiente: 26.0C tempInt: 35.1C temp_ref: 35.1C
-[22-01-2023 16:48:09] - tempAmbiente: 26.0C tempInt: 35.1C temp_ref: 35.1C
-[22-01-2023 16:48:11] - tempAmbiente: 26.0C tempInt: 35.2C temp_ref: 35.2C
-[22-01-2023 16:48:13] - tempAmbiente: 26.0C tempInt: 45.0C temp_ref: 45.0C
-[22-01-2023 16:48:16] - tempAmbiente: 26.0C tempInt: 45.0C temp_ref: 45.0C
-[22-01-2023 16:48:18] - tempAmbiente: 26.0C tempInt: 45.0C temp_ref: 45.0C
-[22-01-2023 16:48:20] - tempAmbiente: 26.0C tempInt: 45.0C temp_ref: 45.0C
-[22-01-2023 16:48:23] - tempAmbiente: 26.0C tempInt: 45.0C temp_ref: 45.0C
-[22-01-2023 16:48:25] - tempAmbiente: 26.0C tempInt: 45.0C temp_ref: 45.0C
-[22-01-2023 16:48:28] - tempAmbiente: 26.0C tempInt: 45.0C temp_ref: 45.0C
-[22-01-2023 16:48:30] - tempAmbiente: 26.0C tempInt: 45.0C temp_ref: 45.0C
-[22-01-2023 16:48:33] - tempAmbiente: 26.0C tempInt: 45.0C temp_ref: 45.0C
-[22-01-2023 20:42:08] - tempAmbiente: 26.0C tempInt: 24.0C temp_ref: 24.0C
-[22-01-2023 21:07:21] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:07:23] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:07:25] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:07:28] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:07:30] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:07:32] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:07:35] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:07:37] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:07:40] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:07:42] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:07:45] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:07:47] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:07:49] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:07:51] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:07:54] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:07:56] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:07:59] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:08:01] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:08:04] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:08:06] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:08:08] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:08:11] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:08:13] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:08:15] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:08:18] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:08:20] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:08:23] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:08:25] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:08:49] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:08:52] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:08:54] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:08:56] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:08:59] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:09:01] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:09:04] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:09:06] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:09:09] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:09:11] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:09:13] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:09:15] - tempAmbiente: 25.9C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 21:09:18] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:09:20] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:09:22] - tempAmbiente: 25.9C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 21:09:24] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:09:27] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:09:28] - tempAmbiente: 25.9C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 21:09:30] - tempAmbiente: 25.9C tempInt: 0.0C temp_ref: 0.0C
-[22-01-2023 21:09:32] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:09:35] - tempAmbiente: 25.9C tempInt: 30.0C temp_ref: 30.0C
-[22-01-2023 21:11:45] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:11:47] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:11:50] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:11:52] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:11:55] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:11:57] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:11:59] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:12:02] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:12:04] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:12:06] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:12:09] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:12:11] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:12:14] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:12:16] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:12:19] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:12:21] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:12:23] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:12:25] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:12:28] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:12:30] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:12:33] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:12:34] - tempAmbiente: 26.1C tempInt: 32.6C temp_ref: 32.6C
-[22-01-2023 21:12:36] - tempAmbiente: 26.1C tempInt: 32.6C temp_ref: 32.6C
-[22-01-2023 21:12:38] - tempAmbiente: 26.1C tempInt: 32.6C temp_ref: 32.6C
-[22-01-2023 21:12:39] - tempAmbiente: 26.1C tempInt: 32.7C temp_ref: 32.7C
-[22-01-2023 21:12:41] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:12:44] - tempAmbiente: 26.1C tempInt: 32.8C temp_ref: 32.8C
-[22-01-2023 21:12:45] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:12:47] - tempAmbiente: 26.1C tempInt: 32.9C temp_ref: 32.9C
-[22-01-2023 21:12:49] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:12:51] - tempAmbiente: 26.1C tempInt: 33.1C temp_ref: 33.1C
-[22-01-2023 21:12:52] - tempAmbiente: 26.1C tempInt: 33.1C temp_ref: 33.1C
-[22-01-2023 21:12:54] - tempAmbiente: 26.1C tempInt: 33.2C temp_ref: 33.2C
-[22-01-2023 21:12:56] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:14:33] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:14:36] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:14:38] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:14:40] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:14:43] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:14:45] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:14:48] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:14:50] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:14:52] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:14:55] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:14:57] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:14:59] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:02] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:04] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:07] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:09] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:12] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:14] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:16] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:18] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:21] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:23] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:26] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:28] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:31] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:33] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:35] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:37] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:40] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:42] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:45] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:47] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:50] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:52] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:54] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:57] - tempAmbiente: 26.0C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:15:59] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:16:01] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:16:04] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:16:06] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:16:09] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:16:11] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:16:13] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:16:16] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:16:18] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:16:20] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:16:23] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:16:25] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:16:28] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:16:30] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:16:33] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:16:35] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:16:37] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:16:39] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:16:42] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:16:44] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:16:47] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:16:49] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
-[22-01-2023 21:16:52] - tempAmbiente: 26.1C tempInt: 35.0C temp_ref: 35.0C
+[23-01-2023 03:18:03] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:18:05] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:18:07] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:18:10] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:18:12] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:18:14] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:18:17] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:18:19] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:18:22] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:18:24] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:18:26] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:18:29] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:18:31] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:18:33] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:18:36] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:18:38] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:18:41] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:18:43] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:18:46] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:18:48] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:18:50] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:18:53] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:18:55] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:18:57] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:19:00] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:19:02] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:19:05] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -100.0%
+[23-01-2023 03:19:07] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: -37.0%
+[23-01-2023 03:19:10] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 16.0%
+[23-01-2023 03:19:12] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 97.0%
+[23-01-2023 03:19:14] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:19:16] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:19:19] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:19:21] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:19:24] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:19:26] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:19:29] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:19:31] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:19:33] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:19:36] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:19:38] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:19:40] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:19:43] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:19:45] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:19:48] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:19:50] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:19:53] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:19:55] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:19:57] - tempAmbiente: 26.0C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:00] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:02] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:04] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:07] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:09] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:12] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:14] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:16] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:19] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:21] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:23] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:26] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:28] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:31] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:33] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:36] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:38] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:40] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:43] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:45] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:47] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:50] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:52] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:55] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:20:57] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%
+[23-01-2023 03:21:00] - tempAmbiente: 26.1C tempInt: 55.0C temp_ref: 55.0C -: control_signal: 100.0%

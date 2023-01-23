@@ -16,7 +16,7 @@ start_control = False
 def write_log(env_temp,temp_int,temp_ref, sinal_controle):
   with open('datalog.csv', 'a+') as logfile:
     dateNow = strftime('%d-%m-%Y %H:%M:%S', gmtime())
-    print(f'[{dateNow}] - tempAmbiente: {env_temp:.1f}C tempInt: {temp_ref:.1f}C temp_ref: {temp_ref:.1f}C -: {sinal_controle:.1f}%',file = logfile)
+    print(f'[{dateNow}] - tempAmbiente: {env_temp:.1f}C tempInt: {temp_ref:.1f}C temp_ref: {temp_ref:.1f}C -: control_signal: {sinal_controle:.1f}%',file = logfile)
 
 def verify_crc(resp, crc_resp, size):
   crc_calc = crc16.calcCRC(resp, size-2).to_bytes(2,'little')
@@ -111,7 +111,7 @@ def request_uart(uart,cmd_code):
 def send_reference_signal(uart, cmd_code, reference_signal):
   crc = crc16.calcCRC(defs.ESP32 + defs.CODE[1] + cmd_code + defs.matricula + reference_signal,11).to_bytes(2,'little')
   message = defs.ESP32 + defs.CODE[1] + cmd_code + defs.matricula+ reference_signal + crc
-  print(struct.unpack('f',reference_signal))
+  # print(struct.unpack('f',reference_signal))
   uart.write(message) # Solicita comando
 
 
@@ -184,7 +184,7 @@ if __name__ == "__main__":
         control_signal_bytes = control_signal.to_bytes(4,'little',signed=True)
         send_control_signal(uart, defs.D1, control_signal_bytes)
         # Escreve no datalog
-        write_log(temp_amb,temp_int,temp_ref, sinal_controle)
+        write_log(temp_amb,temp_int,temp_ref, control_signal)
 
         #atualiza pwm
         # print(float(control_signal))
