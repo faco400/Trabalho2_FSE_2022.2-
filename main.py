@@ -1,24 +1,22 @@
 import RPi.GPIO as GPIO
 import bme.externalTemp as bme
-import CRC.crc16 as crc16
 from PID.pid import PID
+import CRC.crc16 as crc16
 import definitions as defs
 import serial
 from time import gmtime, strftime
 import time
 import struct
 import os
-# import wiringpi
 
 # Variaveis para acesso 'publico'
 uart0_filestream = -1
 start_control = False
-ref_fixa = False
 
-def write_log(env_temp,temp_int,temp_ref):
+def write_log(env_temp,temp_int,temp_ref, sinal_controle):
   with open('datalog.csv', 'a+') as logfile:
     dateNow = strftime('%d-%m-%Y %H:%M:%S', gmtime())
-    print(f'[{dateNow}] - tempAmbiente: {env_temp:.1f}C tempInt: {temp_ref:.1f}C temp_ref: {temp_ref:.1f}C',file = logfile)
+    print(f'[{dateNow}] - tempAmbiente: {env_temp:.1f}C tempInt: {temp_ref:.1f}C temp_ref: {temp_ref:.1f}C -: {sinal_controle:.1f}%',file = logfile)
 
 def verify_crc(resp, crc_resp, size):
   crc_calc = crc16.calcCRC(resp, size-2).to_bytes(2,'little')
@@ -37,6 +35,9 @@ def get_temp(resp):
 
 # To Do...
 def init_states(uart):
+
+  ref_fixa = False
+  temp_fixa = 0.0
   send_states(uart,defs.D3, 0)
   send_states(uart,defs.D4, 0)
   send_states(uart,defs.D5, 0)
@@ -112,17 +113,12 @@ def send_reference_signal(uart, cmd_code, reference_signal):
   message = defs.ESP32 + defs.CODE[1] + cmd_code + defs.matricula+ reference_signal + crc
   print(struct.unpack('f',reference_signal))
   uart.write(message) # Solicita comando
-  resp = uart.read(5) # le comando
 
-  if(verify_crc(resp, resp[-2:], 5) == 'CRC-ERROR'):
-    print('Error no Calculo CRC, tentando de novo...')
-    send_reference_signal(uart, cmd_code, reference_signal)
 
 def send_control_signal(uart, cmd_code, control_signal):
   crc = crc16.calcCRC(defs.ESP32 + defs.CODE[1] + cmd_code + defs.matricula + control_signal,11).to_bytes(2,'little')
   message = defs.ESP32 + defs.CODE[1] + cmd_code + defs.matricula+ control_signal + crc
-  # print(message)
-  # print(crc)
+
   uart.write(message) # Solicita comando
 
 
@@ -131,15 +127,11 @@ def send_envTemp(uart, cmd_code, env_temp):
   message = defs.ESP32 + defs.CODE[1] + cmd_code + defs.matricula + env_temp + crc
   uart.write(message) # Solicita comando
 
-  # resp = uart.read(9) # le comando
-  # if(verify_crc(resp, resp[-2:], 9) == 'CRC-ERROR'):
-  #   print('Error no Calculo CRC, tentando de novo...')
-  #   send_envTemp(uart, cmd_code, env_temp)
-
 if __name__ == "__main__":
   try: 
     fan, res = init_GPIO(defs.resistor,defs.ventoinha)
     uart = init_UART()
+    global temp_fixa, ref_fixa
     ctr, referencia_fixa, tmp_ref_fixa = init_states(uart)
     print('Rodando...')
     
@@ -173,7 +165,7 @@ if __name__ == "__main__":
 
       elif op == '0xa5':
         print('alterna entre o modo de Temperatura de Referência e Curva de Temperatura')
-        #ALTERNA? Relacionado com o init_states?
+        send_states(uart,defs.D4, 1)
 
       # print(start_control)
       if start_control == True:
@@ -186,13 +178,13 @@ if __name__ == "__main__":
           temp_ref = get_temp(resp)
           send_reference_signal(uart,defs.D2, struct.pack('f', float(temp_ref)))
         else:
-          send_reference_signal(uart,defs.D2, struct.pack('f', tmp_ref_fixa))
+          end_reference_signal(uart,defs.D2, struct.pack('f', tmp_ref_fixa))
         ctr.pid_atualiza_referencia(temp_ref)
         control_signal = int(ctr.pid_controle(temp_int))
         control_signal_bytes = control_signal.to_bytes(4,'little',signed=True)
         send_control_signal(uart, defs.D1, control_signal_bytes)
         # Escreve no datalog
-        write_log(temp_amb,temp_int,temp_ref)
+        write_log(temp_amb,temp_int,temp_ref, sinal_controle)
 
         #atualiza pwm
         # print(float(control_signal))
