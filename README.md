@@ -34,3 +34,5 @@ Em seguida acesse o Dashboard da placa raspberry utilizada para interagir com o 
 
 ## Video de apresentação:
 <a href="https://youtu.be/vFwdDArBs58" title="Apresentação FSE">Video de apresentação</a>
+
+OBS: O vídeo apresentado não demonstra o funcionamento do sensor de temperatura ambiente pois como é comentado, foi realizado na rasp 42 onde o sensor bme se encontra ausente. No entanto para o código deste repositório funcionar o ideal é executá-lo em uma placa com o sensor em questão.
