@@ -35,7 +35,7 @@ def write_log(env_temp,temp_int,temp_ref, sinal_controle):
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
     # dateNow = strftime('%d-%m-%Y %H:%M:%S', gmtime())
-    print(f'[{current_time}] - tempAmbiente: {env_temp:.1f}C tempInt: {temp_ref:.1f}C temp_ref: {temp_ref:.1f}C -: control_signal: {sinal_controle:.1f}%',file = logfile)
+    print(f'[{current_time}] - tempAmbiente: {env_temp:.1f}C tempInt: {temp_int:.1f}C temp_ref: {temp_ref:.1f}C -: control_signal: {sinal_controle:.1f}%',file = logfile)
 
 def verify_crc(resp, crc_resp, size):
   crc_calc = crc16.calcCRC(resp, size-2).to_bytes(2,'little')
@@ -257,7 +257,7 @@ if __name__ == "__main__":
         send_reference_signal(uart,defs.D2, struct.pack('f', temp_ref))
         pwm_control(control_signal)
 
-        if int(time_curva) == curvafile[count_curva+1][0]:
+        if int(time_curva) == int(curvafile[count_curva+1][0]):
           count_curva+=1
         time_curva = time_curva + 0.5
         

@@ -8,7 +8,6 @@ A descrição sobre os objetivos e os detalhes de implementação requisitados p
 
 # Requisitos
 - Python 3.9.2 e as seguintes dependências:
-  - wiringpi
   - smbus2
   - RPi.bme280
 
@@ -27,9 +26,14 @@ python main.py
 Em seguida acesse o Dashboard da placa raspberry utilizada para interagir com o forno.
 
 ## Screenshots
-### Gráficos com o uso de uma referência fixa de temperatura (30 graus)
+### Gráfico com o uso de uma referência fixa de temperatura (30 graus)
 
 <img src="assets/teste_referencia_fixa.png" width="500px"/>
+
+
+### Grafico demonstrando alteração da temperatura interna com o uso da curva de Reflow
+
+<img src="assets/curva_reflow.png" width="500px"/>
 
 
 ## Video de apresentação:
